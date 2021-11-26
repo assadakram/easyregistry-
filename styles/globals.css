@@ -26,9 +26,12 @@
   }
 
   .hover-trigger .hoverproperty{
-    display: none;
+   visibility: hidden;
+    transition: all .6s ease-in-out;
+    opacity: 0;
   }
   
   .hover-trigger:hover .hoverproperty{
-	display: block;;
+	visibility: visible;
+   opacity: 1;
   }

@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <Head>
         <title>David & Ashleigh</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/heart.png" />
       </Head>
       <Layout>
         <div>

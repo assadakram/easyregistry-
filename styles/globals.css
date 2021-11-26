@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.footerborder {
+	display: flex;
+	flex-direction: row;
+  }
+  .footerborder:before, .footerborder:after{
+	content: "";
+	flex: 1 1;
+	border-bottom: 1px solid #dee2e5 ;
+	margin: auto;
+	opacity: 0.1;
+  }
+  .footerborder:before {
+	margin-right: 70px
+  }
+  .footerborder:after {
+	margin-left: 70px
+  }
+
+  .hover-trigger .hoverproperty{
+    display: none;
+  }
+  
+  .hover-trigger:hover .hoverproperty{
+	display: block;;
+  }
